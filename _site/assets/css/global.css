@@ -1,0 +1,127 @@
+ body {
+     font-family: 'Open Sans', sans-serif;
+     -webkit-backface-visibility: hidden;
+     background-color: #FAFAFA;
+}
+ h1, h2, h3, h4, h5 {
+     font-family: 'Open Sans', sans-serif !important;
+}
+ h1 {
+     font-weight: 900 !important;
+}
+ #navbar {
+     -webkit-transition: all 0.4s ease;
+     transition: all 0.4s ease;
+     min-height: 80px;
+     color: white;
+     background-color: transparent;
+}
+ .navbar-dark {
+     background-color: #363636 !important;
+}
+ #navbar .navbar-title {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+     font-size: 1em;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+ #navbar .navbar-item {
+     text-transform: lowercase;
+     font-family: 'Source Code Pro', monospace;
+     font-weight: 600;
+}
+ #navbar .active {
+     text-decoration: underline;
+     font-weight: 900;
+}
+ #image-showcase {
+     background-color: black;
+     background-size: cover;
+     transition: background 1s linear;
+     will-change: background;
+}
+ .tint {
+     background: rgba(0, 0, 0, 0.7);
+}
+ .img-circle {
+     border-radius: 50%;
+}
+
+
+
+ .uftd-hr {
+     position: relative;
+     overflow: visible;
+     height: 1px;
+     border: 0.5px solid #ddd;
+}
+
+ .uftd-hr .uftd-logo {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin-top: -40px;
+     padding: 0 5px;
+     height: 80px;
+     width: 80px;
+     background: #FAFAFA url(/assets/img/Arkus-Fatter-Vector.svg) no-repeat scroll center;
+     background-size: 60%;
+     padding: 5px;
+     margin-left: -40px;
+    /* half of width */
+}
+
+.uftd-title {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 900;
+}
+
+
+ .btn.btn-circle {
+     color: #ff0561 !important;
+     background-color: white;
+     display: inline-block;
+     padding: 20px;
+     border-radius: 50px;
+     text-transform: uppercase;
+     font-weight: 900;
+     letter-spacing: 1px;
+     text-decoration: none;
+}
+ .btn.btn-circle:hover {
+     animation: pulse 1s;
+}
+ #footer {
+     color: gray;
+     text-transform: uppercase;
+     font-weight: 900;
+     letter-spacing: 1px;
+}
+ #footer #footer-light {
+     color: lightgray;
+}
+ #footer img {
+     width: 50px;
+}
+
+
+ .awards-carousel {
+}
+ .awards-carousel img {
+     height: 50px;
+     filter: gray;
+    /* IE6-9 */
+     -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+     filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+}
+ .awards-carousel img.smaller {
+     height: 50px;
+     padding: 10px;
+}
+ .awards-carousel img:hover {
+     -webkit-filter: grayscale(0);
+     filter: none;
+}

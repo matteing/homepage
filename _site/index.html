@@ -1,8 +1,114 @@
----
-id: home
-layout: home
-title: Hello
----
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello | Sergio E. Mattei Díaz</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="/assets/css/bulma.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700|Source+Sans+Pro:300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+		<link rel="stylesheet" href="/assets/css/global.css" />
+		<link rel="stylesheet" href="/assets/css/animate.css" />
+	</head>
+	<body>
+		<nav class="navbar is-dark is-transparent is-fixed-top navbar-big " id="navbar" role="navigation" aria-label="main navigation">
+	<div class="container">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/" >
+				<img src="/assets/img/Arkus-Fatter.png" />
+			</a>
+			<button class="button navbar-burger">
+			<span></span>
+			<span></span>
+			<span></span>
+			</button>
+		</div>
+		<div class="navbar-menu">
+			<div class="navbar-start">
+			</div>
+			<div class="navbar-end">
+				<a class="navbar-item active" href="/">
+					Me
+				</a>
+				<a class="navbar-item " href="/projects">
+					Projects
+				</a>
+				<a class="navbar-item ">
+					Awards
+				</a>
+				<a class="navbar-item" href="https://medium.com/@matteing">
+					Essays
+				</a>
+				<a class="navbar-item navbar-highlight">
+					Contact
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+		
+		<style>
+
+ #me-media h1 {
+     font-size: 2em;
+}
+ #me-media small {
+     color: gray;
+     font-size: 1.5em;
+     font-family: 'PT Sans', sans-serif;
+}
+ #me-media img {
+     margin-top: 30px;
+}
+ #me-media p {
+     font-weight: 200;
+}
+ #me-media .media-content {
+     padding: 20px;
+}
+ .undecorated {
+     text-decoration: none;
+     color: inherit;
+}
+
+
+ .awards-carousel {
+}
+ .awards-carousel img {
+     height: 50px;
+     filter: gray;
+    /* IE6-9 */
+     -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+     filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+}
+ .awards-carousel img.smaller {
+     height: 50px;
+     padding: 10px;
+}
+ .awards-carousel img:hover {
+     -webkit-filter: grayscale(0);
+     filter: none;
+}
+ #projects-level {
+}
+ #projects-level img {
+     height: 50px;
+}
+ #projects-level img.smaller {
+     padding: 5px;
+}
+ #projects img {
+     padding: 5px;
+     height: 50px;
+}
+
+</style>
+
 <section class="hero is-success is-fullheight" id="image-showcase">
 	<div class="hero-body tint">
 		<div class="container">
@@ -137,3 +243,21 @@ title: Hello
 		</center>
 	</div>
 </section>
+
+<script src="/assets/js/home.js"></script>
+
+		<footer class="footer" id="footer">
+	<div class="container">
+		<div class="content has-text-centered">
+			<p>
+				<img src="/assets/img/Arkus-Fatter-Black.png"><br />
+				Sergio E. Mattei Díaz <br />
+				<span class="has-text-grey-light">
+					Proudly made in Puerto Rico
+				</span>
+			</p>
+		</div>
+	</div>
+</footer>
+	</body>
+</html>

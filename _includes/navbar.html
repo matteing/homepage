@@ -1,0 +1,35 @@
+<nav class="navbar is-dark is-transparent is-fixed-top navbar-big {% if page.layout != 'home' %}navbar-dark{% endif %}" id="navbar" role="navigation" aria-label="main navigation">
+	<div class="container">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/" >
+				<img src="/assets/img/Arkus-Fatter.png" />
+			</a>
+			<button class="button navbar-burger">
+			<span></span>
+			<span></span>
+			<span></span>
+			</button>
+		</div>
+		<div class="navbar-menu">
+			<div class="navbar-start">
+			</div>
+			<div class="navbar-end">
+				<a class="navbar-item {% if page.id == 'home' %}active{% endif %}" href="/">
+					Me
+				</a>
+				<a class="navbar-item {% if page.id == 'projects' %}active{% endif %}" href="/projects">
+					Projects
+				</a>
+				<a class="navbar-item {% if page.id == 'awards' %}active{% endif %}">
+					Awards
+				</a>
+				<a class="navbar-item" href="https://medium.com/@matteing">
+					Essays
+				</a>
+				<a class="navbar-item navbar-highlight">
+					Contact
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
