@@ -141,12 +141,12 @@
      filter: none;
 }
 
-.modal .modal-content {
+#contact-modal .modal-content {
      width: 760px;
      height: 760px;
 }
 
-.modal .modal-content iframe {
+#contact-modal .modal-content iframe {
      width: 760px;
      height: 760px;
 }
