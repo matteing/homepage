@@ -20,15 +20,13 @@
 			<a class="navbar-item" href="/" >
 				<img src="/assets/img/Arkus-Fatter.png" />
 			</a>
-			<button class="button navbar-burger">
+			<button class="button navbar-burger" data-target="navMenu">
 			<span></span>
 			<span></span>
 			<span></span>
 			</button>
 		</div>
-		<div class="navbar-menu">
-			<div class="navbar-start">
-			</div>
+		<div class="navbar-menu" id="navMenu">
 			<div class="navbar-end">
 				<a class="navbar-item active" href="/">
 					Me
@@ -36,13 +34,10 @@
 				<a class="navbar-item " href="/projects">
 					Projects
 				</a>
-				<a class="navbar-item ">
-					Awards
-				</a>
 				<a class="navbar-item" href="https://medium.com/@matteing">
 					Essays
 				</a>
-				<a class="navbar-item navbar-highlight">
+				<a class="navbar-item navbar-highlight close-modal" data-modal-id="#contact-modal">
 					Contact
 				</a>
 			</div>
@@ -259,5 +254,14 @@
 		</div>
 	</div>
 </footer>
+		<div aria-hidden="" class="modal" id="contact-modal" style="z-index: 100000">
+  <div class="modal-background close-modal" data-modal-id="#contact-modal"></div>
+  <div class="modal-content">
+  	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYPZtdtieghEOcEir54B170WwMh2z0TZzo8Mn4DgD08Bj9jw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+   </div>
+   <button class="modal-close is-large close-modal" data-modal-id="#contact-modal" aria-label="close"></button>
+</div>
+
+		<script src="/assets/js/global.js"></script>
 	</body>
 </html>

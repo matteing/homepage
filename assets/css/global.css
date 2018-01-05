@@ -12,10 +12,25 @@
  #navbar {
      -webkit-transition: all 0.4s ease;
      transition: all 0.4s ease;
-     min-height: 80px;
+     height: 80px;
      color: white;
      background-color: transparent;
 }
+
+#navbar .container {
+     height: 80px;
+}
+
+#navbar button {
+     height: 80px;
+     background: transparent;
+     color: white;
+     border: none;
+}
+
+#navbar .navbar-end {
+}
+
  .navbar-dark {
      background-color: #363636 !important;
 }
@@ -124,4 +139,14 @@
  .awards-carousel img:hover {
      -webkit-filter: grayscale(0);
      filter: none;
+}
+
+.modal .modal-content {
+     width: 760px;
+     height: 760px;
+}
+
+.modal .modal-content iframe {
+     width: 760px;
+     height: 760px;
 }
